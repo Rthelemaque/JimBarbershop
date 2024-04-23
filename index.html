@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jim Barber Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script>
+    window.onscroll = function() {showBackToTopButton()};
+    
+    function showBackToTopButton() {
+        var backToTopButton = document.querySelector(".back-to-top");
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            backToTopButton.style.display = "block";
+        } else {
+            backToTopButton.style.display = "none";
+        }
+    }
+    </script>    
+</head>
+<body>
+    <header class="background-section">
+            <h1>Welcome to Jim Barbershop</h1>
+    </header>
+
+    <section id="about">
+        <h2>About Jim BaberShop</h2>
+        <img src="Barbershop.jpg" alt="Barber Shop Interior">
+        <p>Welcome to Jim BaberShop, where style meets tradition. Established in year 2010, we have been providing top-notch grooming services to the Orlando community for over 14 years. Our experienced team of barbers is dedicated to delivering the finest haircuts, shaves, and grooming experiences in a welcoming and comfortable environment.<br>
+
+        At Jim Babershop, we understand that a great haircut is more than just a service—it's an experience. That's why we take pride in offering personalized services tailored to each client's unique style and preferences. Whether you're looking for a classic gentleman's cut, a modern fade, or a stylish beard trim, our barbers are here to make you look and feel your best. <br>
+            
+        Our commitment to quality extends beyond our services. We use only the finest grooming products, ensuring that your hair and skin receive the care they deserve. From premium shampoos and conditioners to top-of-the-line styling products, we have everything you need to maintain your look between visits.<br>
+            
+        At Jim Babershop, we believe that grooming is an art form. That's why we strive to create an atmosphere that blends classic barbering techniques with modern trends. Whether you're a longtime customer or visiting us for the first time, we look forward to providing you with an exceptional grooming experience that will leave you looking and feeling your best.<br>
+            
+        Visit Jim BaberShop today and discover why we are Orlando's premier destination for men's grooming. Experience the difference that passion, skill, and dedication can make in your grooming routine. We can't wait to welcome you into our chair..</p>
+    </section>
+
+    <section id="services"><center>
+        <h2>Jim Babershop Services</h2>
+            $25 Haircuts - $15 Shaves - $10 Beard Trims
+        </center>
+    </section>
+   
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@Jimbarbershop.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+    
+   <footer>
+    <p>&copy; 2024 Jim BarberShop. All Rights Reserved.</p>
+    <a href="#top" class="back-to-top" aria-label="Back to top" title="Back to top">
+        &#8679; <!-- This is a simple arrow icon, you can use an image or font icon instead -->
+    </a>
+</footer>
+
+</body>
+</html>
